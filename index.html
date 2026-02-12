@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>⏱️ Mini Focus App</h1>
+    <p class="muted">Pomodoro + Görev Listesi (JS giriş projesi)</p>
+    <div class="card">
+      <div class="row">
+        <span class="badge" id="modeBadge">Odak</span>
+        <span class="muted">Odak : 25dk / Mola: 5dk</span>
+      </div>
+      <div class="time" id="timeText">25:00</div>
+    </div>
+    <div class="row">
+      <button id="startBtn">Başlat</button>
+      <button id="pauseBtn">Durdur</button>
+      <button id="resetBtn">Sıfırla</button>
+    </div>
+    <div class="card">
+      <h2>✅ Görevler</h2>
+      <div class="row">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Yeni görev yaz (örn : JS tekrar)"
+        />
+        <button id="addTaskBtn">Ekle</button>
+      </div>
+      <p class="muted" id="taskCount">Toplam : 0</p>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

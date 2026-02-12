@@ -1,0 +1,55 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 20px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+button,
+input {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+input {
+  flex: 1;
+  min-width: 400px;
+}
+.time {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 12px 0;
+}
+.badge {
+  padding: 6px 10px;
+  border: 1px solid #333;
+  border-radius: 999px;
+}
+ul {
+  list-style: none;
+  margin: 12px 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
